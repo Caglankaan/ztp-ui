@@ -13,7 +13,7 @@ class App extends Component{
     this.state = {
       bruteForceType: "light",
       nmapOption: "nmap --unprivileged -vv",
-      bruteForcePath: "/",
+      bruteForcePath: "",
       publicKeyAuthentication: false,
       username: "",
       password: "",
